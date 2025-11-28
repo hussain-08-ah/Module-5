@@ -26,7 +26,22 @@ To write a Python program that uses multilevel inheritance to get and display a 
    - Print all details using class methods.
 
 ## Program
-Add code here
+```
+class student:
+def __init__(self,x,y,z):
+self.x=x
+self.y=y
+self.z=z
+class s(student):
+def show(self):
+print(f"{self.x} {self.y} {self.z}")
+x=input()
+y=int(input())
+z=int(input())
+obj=s(x,y,z)
+obj.show()
+```
 
 ## Sample Output
+<img width="425" height="169" alt="image" src="https://github.com/user-attachments/assets/4d67bfb4-291c-4c41-b489-cab7d3fc012e" />
 
